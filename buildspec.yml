@@ -100,7 +100,7 @@ phases:
                 volumes:
                   - name: volume
                     persistentVolumeClaim:
-                    claimName: aws-efs  
+                      claimName: aws-efs  
           EOF
       - |
           cat <<EOF | kubectl apply -f -
