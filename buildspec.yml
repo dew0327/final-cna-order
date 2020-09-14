@@ -100,7 +100,7 @@ phases:
           apiVersion: autoscaling/v1
           kind: HorizontalPodAutoscaler
           metadata:
-            name: skcchpa
+            name: skcchpa-order
             namespace: teamc
           spec:
             scaleTargetRef:
